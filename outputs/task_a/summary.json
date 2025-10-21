@@ -1,0 +1,62 @@
+{
+  "distilbert-base-uncased-finetuned-sst-2-english": {
+    "accuracy": 0.8982825,
+    "report": {
+      "NEGATIVE": {
+        "precision": 0.8803726536050082,
+        "recall": 0.921825,
+        "f1-score": 0.9006221041138985,
+        "support": 200000.0
+      },
+      "POSITIVE": {
+        "precision": 0.9179622526668171,
+        "recall": 0.87474,
+        "f1-score": 0.895830079650164,
+        "support": 200000.0
+      },
+      "accuracy": 0.8982825,
+      "macro avg": {
+        "precision": 0.8991674531359126,
+        "recall": 0.8982825,
+        "f1-score": 0.8982260918820313,
+        "support": 400000.0
+      },
+      "weighted avg": {
+        "precision": 0.8991674531359126,
+        "recall": 0.8982825,
+        "f1-score": 0.8982260918820312,
+        "support": 400000.0
+      }
+    }
+  },
+  "textattack/roberta-base-SST-2": {
+    "accuracy": 0.9421575,
+    "report": {
+      "NEGATIVE": {
+        "precision": 0.9219281546264355,
+        "recall": 0.96613,
+        "f1-score": 0.943511666573077,
+        "support": 200000.0
+      },
+      "POSITIVE": {
+        "precision": 0.964424324224966,
+        "recall": 0.918185,
+        "f1-score": 0.9407368132557741,
+        "support": 200000.0
+      },
+      "accuracy": 0.9421575,
+      "macro avg": {
+        "precision": 0.9431762394257008,
+        "recall": 0.9421575,
+        "f1-score": 0.9421242399144255,
+        "support": 400000.0
+      },
+      "weighted avg": {
+        "precision": 0.943176239425701,
+        "recall": 0.9421575,
+        "f1-score": 0.9421242399144254,
+        "support": 400000.0
+      }
+    }
+  }
+}
